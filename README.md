@@ -17,3 +17,21 @@ Python: 416.96802
 
 Cython is 1.5985x faster than Python
 ```
+
+## Inverse Square Root (Newton-Raphson)
+
+```
+Starting Cy...
+
+Starting Py...
+
+Checking values...
+
+Values:
+cy: 0.10000000149011612 py:0.09999999999999999
+
+Cython: 60.77959
+Python: 305.20921
+
+Cython is 5.0216x faster than Python
+```
