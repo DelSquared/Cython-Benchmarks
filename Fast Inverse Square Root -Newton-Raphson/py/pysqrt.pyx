@@ -1,3 +1,6 @@
+#unfortunately there was no way around using ctypes as pure Python does not permit pointers
+#this code was inspired by https://github.com/ajcr/ajcr.github.io/blob/master/_posts/2016-04-01-fast-inverse-square-root-python.md
+
 from ctypes import c_float, c_int32, cast, byref, POINTER
 def invsqrt(x):
     x2 = x * 0.5
