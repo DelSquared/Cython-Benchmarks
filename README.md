@@ -35,3 +35,18 @@ Python: 305.20921
 
 Cython is 5.0216x faster than Python
 ```
+
+## Factorial
+
+```
+Starting Cy...
+
+Starting Py...
+
+Checking values...
+
+Cython: 47.38556
+Python: 47.46324
+
+Cython is 1.0016x faster than Python
+```
