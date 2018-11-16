@@ -30,7 +30,7 @@ print("Checking values...\n")
 if (abs(cy-py)>0.1):
     print("found mismatch in values!\n")
 
-print("Values:\ncy: {}\n\npy: {}\n".format(cy,py))
+print("Values:\ncy: {} py: {}\n".format(cy,py))
         
             
 
