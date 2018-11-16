@@ -50,3 +50,26 @@ Python: 47.46324
 
 Cython is 1.0016x faster than Python
 ```
+<sub>I was honestly very surprised that these were this close with only ~0.2% improvement</sub>
+
+## Euler Integration
+
+```
+Integrating function f(x)=x^2+x+1 on the interval [0,10] with 1000000 parts
+
+Starting Cy...
+
+Starting Py...
+
+Checking values...
+
+Values:
+cy: 18.34343910217285
+
+py: 18.333323333334896
+
+Cython: 1.15893
+Python: 1.55387
+
+Cython is 1.3408x faster than Python
+```
