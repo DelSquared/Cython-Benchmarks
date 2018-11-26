@@ -91,3 +91,25 @@ Python: 39.75569
 
 Cython is 1.0188x faster than Python
 ```
+
+## Root Finder (Newton-Raphson)
+
+```
+Finding roots of f(x)=x^2-2 for 100000000 iterations with 1 step size
+
+Starting Cy...
+
+Starting Py...
+
+Checking values...
+
+Values:
+cy: 1.4142135381698608
+
+py: 1.4142135623730951
+
+Cython: 148.43348
+Python: 150.23746
+
+Cython is 1.0122x faster than Python
+```
