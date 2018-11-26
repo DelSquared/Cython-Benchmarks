@@ -72,7 +72,7 @@ Python: 1.55387
 Cython is 1.3408x faster than Python
 ```
 
-## Root Finder
+## Root Finder (Gradient Descent hack)
 
 ```
 Finding roots of f(x)=x^2 for 100000000 iterations with 0.0001 step size
