@@ -113,3 +113,21 @@ Python: 150.23746
 
 Cython is 1.0122x faster than Python
 ```
+
+## Pi Calculator (Monte-Carlo)
+
+```
+Finding pi with 1000000000 samples
+Starting Cy...
+
+Starting Py...
+
+cython value = 3.141520608
+python value = 3.141695692
+
+Cython: 26.15305
+Python: 107.80073
+
+Cython is 4.1219x faster than Python
+```
+
