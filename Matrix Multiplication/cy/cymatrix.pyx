@@ -11,6 +11,6 @@ cpdef Multiply(a,b):
       for j in prange(N):
          with gil:
             for k in range(N):
-               c[i][j] = a[i][k]*b[k][j]
+               c[i][j] += a[i][k]*b[k][j]
             
    return c
