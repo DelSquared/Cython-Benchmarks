@@ -5,5 +5,5 @@ def Multiply(a,b):
    for i in range(a.shape[0]):
       for j in range(a.shape[0]):
          for k in range(a.shape[0]):
-            c[i][j] = a[i][k]*b[k][j]
+            c[i][j] += a[i][k]*b[k][j]
    return c
