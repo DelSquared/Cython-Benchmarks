@@ -28,12 +28,12 @@ Starting Py...
 Checking values...
 
 Values:
-cy: 0.10000000149011612 py:0.09999999999999999
+cy: 0.09984488040208817 py:0.09999999999999999
 
-Cython: 60.77959
-Python: 305.20921
+Cython: 0.74603
+Python: 310.55870
 
-Cython is 5.0216x faster than Python
+Cython is 416.2800x faster than Python
 ```
 
 ## Factorial
