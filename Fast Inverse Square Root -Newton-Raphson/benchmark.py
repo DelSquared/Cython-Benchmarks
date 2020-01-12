@@ -37,7 +37,7 @@ print("Values:\ncy: {} py:{} py(native):{}\n".format(cy,py,pyn))
         
             
 
-print("Cython: {:.5f}\nPython: {:.5f}\n Python(native): {:..5f}\n".format(totalcy,totalpy,totalpyn))
+print("Cython: {:.5f}\nPython: {:.5f}\n Python(native): {}\n".format(totalcy,totalpy,totalpyn))
 print("Cython is {:.4f}x faster than Python".format(totalpy/totalcy))
 print("Cython is {:.4f}x faster than Python(native)".format(totalpyn/totalcy))
 
