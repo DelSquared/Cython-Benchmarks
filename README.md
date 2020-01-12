@@ -25,15 +25,19 @@ Starting Cy...
 
 Starting Py...
 
+Starting Py(native)...
+
 Checking values...
 
 Values:
-cy: 0.09984488040208817 py:0.09999999999999999
+cy: 0.09984488040208817 py:0.09999999999999999 py(native):0.1
 
-Cython: 0.74603
-Python: 310.55870
+Cython: 0.74903
+Python: 309.83456
+Python(native): 1.4551410675048828
 
-Cython is 416.2800x faster than Python
+Cython is 413.6499x faster than Python
+Cython is 1.9427x faster than Python(native)
 ```
 
 ## Factorial
